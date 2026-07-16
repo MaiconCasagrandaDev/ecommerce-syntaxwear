@@ -22,8 +22,7 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role */
-ul[role="list"],
-ol[role="list"] {
+ul, ol {
     list-style: none;
 }
 
@@ -37,6 +36,10 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Make images easier to work with */
