@@ -1,6 +1,37 @@
 body{
     font-family: var(--fonte-principal);
-    background-color: #000;
     color: #333333;
+}
+
+.btn{
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    font-size: 1.25rem;
+    width: 161px;
+    height: 48px;
+    border-radius: 25px ;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-outiline{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.btn-filled{
+    background-color: #ffffff;
+    color: #6329A2;
+}
+
+.btn:hover{
+    background-color: #6329A2;
+    color: #ffffff;
+    border-color: #6329A2;
 }
 
